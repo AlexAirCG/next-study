@@ -34,6 +34,7 @@ export default function Home() {
           quam labore beatae, corrupti libero officiis nam ipsam laudantium,
           assumenda quo veniam.
         </p>
+        <p className="text-base text-gray-200">Load Greeting</p>
 
         <div className="relative w-[100px] h-[100px] md:w-[160px] md:h-[160px] mt-5">
           <Image
