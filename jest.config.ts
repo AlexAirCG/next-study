@@ -12,7 +12,7 @@ const config: Config = {
   setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
   modulePathIgnorePatterns: ["<rootDir>/tests/"],
   moduleNameMapper: {
-    "^@/components/(.*)$": "<rootDir>/src/$1",
+    "^@/components/(.*)$": "<rootDir>/components/$1",
   },
 
   testEnvironment: "jest-environment-jsdom",
