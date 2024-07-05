@@ -7,7 +7,7 @@ export default function Home() {
       <div className="absolute right-0 top-0 h-full w-[80%] z-2">
         <ParticleMy />
       </div>
-      <div className="absolute right-10 md:right-40 bottom-0 z-10/">
+      <div className="absolute right-10 md:right-40 bottom-0 z-[10]/">
         <Image
           src="/assets/MoustacheMan.png"
           alt="MoustachMan"
@@ -34,8 +34,6 @@ export default function Home() {
           quam labore beatae, corrupti libero officiis nam ipsam laudantium,
           assumenda quo veniam.
         </p>
-        <p className="text-base text-gray-200">Load Greeting</p>
-
         <div className="relative w-[100px] h-[100px] md:w-[160px] md:h-[160px] mt-5">
           <Image
             src="/assets/rounded-text.png"
